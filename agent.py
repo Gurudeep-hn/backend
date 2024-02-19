@@ -30,7 +30,7 @@ def generate_initial_population(population_size, num_gene):
 
 
 
-def job_schedule(data_dict, population_size = 200, crossover_rate = 0.8, mutation_rate = 0.3, mutation_selection_rate = 0.4, num_iteration = 3000):
+def job_schedule(data_dict, population_size = 20, crossover_rate = 0.8, mutation_rate = 0.3, mutation_selection_rate = 0.4, num_iteration = 1000):
 
     """ initialize genetic algorithm parameters and read data """
     data_json  = data_dict
